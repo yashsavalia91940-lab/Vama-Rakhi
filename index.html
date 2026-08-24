@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Vama — World's Best Sister ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="petals">🌸</div>
+
+<section class="page active" id="page1">
+  <div class="decor">🪷</div>
+  <div class="card hero">
+    <p class="eyebrow">A little Rakhi surprise</p>
+    <h1>Happy<br>Rakshabandhan</h1>
+    <div class="ribbon">For Vama ❤️</div>
+    <p class="sub">From your irritating brother 😂</p>
+    <button onclick="show(2)">OPEN YOUR SURPRISE ✨</button>
+  </div>
+</section>
+
+<section class="page" id="page2">
+  <div class="card">
+    <p class="eyebrow">Hey Vama 👀</p>
+    <h1>I made something<br>for you...</h1>
+    <p>And before you say anything — yes, your irritating brother actually put effort into this. 😭</p>
+    <p><b>Do you wanna see it?</b></p>
+    <div class="row">
+      <button onclick="show(3)">YES ❤️</button>
+      <button class="no" onclick="show(3)">NO 😒</button>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page3">
+  <div class="card">
+    <p class="eyebrow">Your surprise 🎁</p>
+    <h1>Choose a gift</h1>
+    <p>Each one has a little something made especially for you.</p>
+    <div class="gift-row">
+      <button class="gift" onclick="openGift(1)"><span>🎁</span><b>Memory Lane</b><small>Open me</small></button>
+      <button class="gift" onclick="openGift(2)"><span>🎀</span><b>Why You're The Best</b><small>Open me</small></button>
+      <button class="gift" onclick="openGift(3)"><span>💌</span><b>One Last Thing</b><small>Open me</small></button>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page4">
+  <div class="card wide">
+    <div id="giftContent"></div>
+    <button onclick="show(3)" class="secondary">← Choose another gift</button>
+  </div>
+</section>
+
+<section class="page" id="page5">
+  <div class="card wide">
+    <p class="eyebrow">17 little pieces of our story 📸</p>
+    <h1>Memory Lane</h1>
+    <p>Scroll slowly. These are some of my favourite pieces of us.</p>
+    <div class="gallery" id="gallery"></div>
+    <button onclick="show(6)">Continue ❤️</button>
+  </div>
+</section>
+
+<section class="page" id="page6">
+  <div class="card award">
+    <p class="eyebrow">Officially awarded to</p>
+    <div class="trophy">🏆</div>
+    <h1>Vama</h1>
+    <h2>WORLD'S BEST SISTER</h2>
+    <p>For being caring, annoying, supportive, dramatic, irreplaceable and somehow still putting up with your irritating brother. ❤️</p>
+    <div class="seal">RAKSHABANDHAN 2026</div>
+    <button onclick="show(7)">Accept your award 🏆</button>
+  </div>
+</section>
+
+<section class="page" id="page7">
+  <div class="card letter">
+    <p class="eyebrow">From your irritating brother ❤️</p>
+    <h1>Dear Vama,</h1>
+    <p>I don't always say it, but I'm genuinely grateful that you're a part of my life.</p>
+    <p>We've had our crazy moments, stupid fights, laughter, misunderstandings and memories that I'll always keep close.</p>
+    <p>No matter how irritating I am 😂, I hope you always know that you have a very special place in my life.</p>
+    <p><strong>Happy Rakshabandhan to the world's best sister. ❤️</strong></p>
+    <p class="signature">— Your irritating brother 🫶</p>
+    <button onclick="show(8)">One last surprise…</button>
+  </div>
+</section>
+
+<section class="page" id="page8">
+  <div class="card final-card">
+    <div class="big-heart">❤️</div>
+    <p class="eyebrow">For Vama</p>
+    <h1>Some bonds are<br>irreplaceable.</h1>
+    <p>And ours will always be one of them.</p>
+    <h2>Happy Rakhi, Vama 🫶</h2>
+    <p class="signature">Forever from<br><b>Your Irritating Brother</b></p>
+    <button onclick="celebrate()">❤️ Always</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
